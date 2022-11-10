@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		559F30C4291A9A140095C082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F30C3291A9A140095C082 /* AppDelegate.swift */; };
 		559F30C6291A9A140095C082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F30C5291A9A140095C082 /* SceneDelegate.swift */; };
-		559F30C8291A9A140095C082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F30C7291A9A140095C082 /* ViewController.swift */; };
+		559F30C8291A9A140095C082 /* ​​ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F30C7291A9A140095C082 /* ​​ConcentrationViewController.swift */; };
 		559F30CB291A9A140095C082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559F30C9291A9A140095C082 /* Main.storyboard */; };
 		559F30CD291A9A160095C082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559F30CC291A9A160095C082 /* Assets.xcassets */; };
 		559F30D0291A9A160095C082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559F30CE291A9A160095C082 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		559F30C0291A9A140095C082 /* Concentratio​n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concentratio​n.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		559F30C3291A9A140095C082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559F30C5291A9A140095C082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		559F30C7291A9A140095C082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		559F30C7291A9A140095C082 /* ​​ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "​​ConcentrationViewController.swift"; sourceTree = "<group>"; };
 		559F30CA291A9A140095C082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		559F30CC291A9A160095C082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		559F30CF291A9A160095C082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,23 @@
 		559F30C2291A9A140095C082 /* Concentratio​n */ = {
 			isa = PBXGroup;
 			children = (
-				559F30C3291A9A140095C082 /* AppDelegate.swift */,
-				559F30C5291A9A140095C082 /* SceneDelegate.swift */,
-				559F30C7291A9A140095C082 /* ViewController.swift */,
+				559F30D7291BB8770095C082 /* Supporting Files */,
+				559F30C7291A9A140095C082 /* ​​ConcentrationViewController.swift */,
 				559F30C9291A9A140095C082 /* Main.storyboard */,
-				559F30CC291A9A160095C082 /* Assets.xcassets */,
-				559F30CE291A9A160095C082 /* LaunchScreen.storyboard */,
 				559F30D1291A9A160095C082 /* Info.plist */,
 			);
 			path = "Concentratio​n";
+			sourceTree = "<group>";
+		};
+		559F30D7291BB8770095C082 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559F30C3291A9A140095C082 /* AppDelegate.swift */,
+				559F30C5291A9A140095C082 /* SceneDelegate.swift */,
+				559F30CC291A9A160095C082 /* Assets.xcassets */,
+				559F30CE291A9A160095C082 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559F30C8291A9A140095C082 /* ViewController.swift in Sources */,
+				559F30C8291A9A140095C082 /* ​​ConcentrationViewController.swift in Sources */,
 				559F30C4291A9A140095C082 /* AppDelegate.swift in Sources */,
 				559F30C6291A9A140095C082 /* SceneDelegate.swift in Sources */,
 			);
