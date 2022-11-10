@@ -9,11 +9,24 @@
 import UIKit
 
 class ​​ConcentrationViewController: UIViewController {
-    @IBAction func touchSecondCard(_ sender: UIButton) {
-         flipCard(withEmoji: "🎃", on: sender)
+    var flipCount = 0 {
+        didSet {
+             flipCountLabel.text = "Flips: \(flipCount)"
+        }
     }
+    var emojiChoices = ["👹", "☠️", "👹", "☠️"]
+    @IBOutlet var cardButtons: [UIButton]!
+    @IBOutlet var flipCountLabel: UILabel!
+   
+   
     @IBAction func touchCard(_ sender: UIButton) {
-         flipCard(withEmoji: "👻", on: sender)
+        if let cardNumber = cardButtons.firstIndex(of: sender) {
+            flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
+        } else {
+            print("Choosen card was nit in cardButtons")
+        }
+        flipCount += 1
+                
     }
     func flipCard(withEmoji emoji: String, on button: UIButton) {
         if button.currentTitle == emoji {
