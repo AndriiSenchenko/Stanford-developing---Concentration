@@ -10,8 +10,8 @@ import Foundation
 
 
 class Concentration {
-    var cards = [Card]()
-    var indexOfOneAndOnlyFaceUpCard: Int? {
+   var cards = [Card]()
+   private var indexOfOneAndOnlyFaceUpCard: Int? {
         get {
             var foundIndex: Int? = nil
             for index in cards.indices {
